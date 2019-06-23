@@ -2,7 +2,7 @@
 // @name         潭州课堂助手
 // @namespace    http://tampermonkey.net/
 // @version      1.02
-// @description  去除潭州课堂播轮播广告，头像下增加我的作业菜单，昵称完整展示。
+// @description  去除潭州课堂播轮播广告，头像下增加我的作业菜单，昵称完整展示，作业数量醒目展示。
 // @author       QQ：619877197   Email：zjc877@outlook.com
 // @match        *://*.shiguangkey.com/*
 // @require      https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
