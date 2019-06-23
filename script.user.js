@@ -6,7 +6,6 @@
 // @author       QQ：619877197   Email：zjc877@outlook.com
 // @match        *://*.shiguangkey.com/*
 // @require      https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
-// @require      https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js
 // @grant        none
 // ==/UserScript==
 
