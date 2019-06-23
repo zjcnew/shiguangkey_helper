@@ -43,43 +43,6 @@
             "overflow": "visible"
         })
 
-
-        //
-
-        var homeworktabs = $("div[role='tab']")
-        $.each(homeworktabs, function(i, item) {
-            if (RegExp(/已完成/).exec($(item).find("p").text())) {
-
-                //var completednum = $($("tbody[class='rc-table-tbody']")[1]).find("tr").length;
-                document.cookie = document.cookie;
-                $.ajax({
-                    type: "GET",
-                    async: false,
-                    //crossDomain: true,
-                    xhrFields: {
-                        withCredentials: true
-                    },
-                    headers: {
-
-                        "token": $.cookie("token"),
-                        "terminaltype": 4
-                    },
-                    url: "https://www.shiguangkey.com/i/homework/chapterHomework?classId=6935&activeKey=1&pageIndex=1&pageSize=10&terminalType=4",
-                    //dataType: "text",
-                    success: function (res) {
-                        console.log(res);
-                        var completed = $("<span style='color: green;'>（" + res.data.totalItem + "）</span>");
-                        $(item).find("p").append(completed);
-                    },
-                    error: function () {}
-                });
-
-            }
-
-        })
-
-
-
     };
 
 
