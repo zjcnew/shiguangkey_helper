@@ -1,5 +1,5 @@
 # shiguangkey_helper
-潭州课堂视频助手 - Tampermonkey油猴插件浏览器插件
+潭州课堂助手 - Tampermonkey油猴插件浏览器插件
 ### 功能展示
 #### 1.去除课程介绍页面的轮播广告
 ![image](https://github.com/zjcnew/shiguangkey_helper/raw/master/images/QQ截图20190623193228.jpg)
@@ -11,3 +11,5 @@
 ![image](https://github.com/zjcnew/shiguangkey_helper/raw/master/images/QQ截图20190623193409.jpg)
 #### 5.单个课程作业待完成数量与已完成数量展示
 ![image](https://github.com/zjcnew/shiguangkey_helper/raw/master/images/QQ截图20190623193503.jpg)
+#### 6.我的课程表增加最近在学可选项
+![image](https://github.com/zjcnew/shiguangkey_helper/raw/master/images/QQ截图20190625224708.jpg)
